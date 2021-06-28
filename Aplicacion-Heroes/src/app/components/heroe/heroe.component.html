@@ -16,8 +16,8 @@
       {{heroe.bio}}
     </p>
     <div>
-      <img  class="img-logo" src="../../../assets/img/dc.png" alt="DC">
-      <img  class="img-logo" src="../../../assets/img/marvel.png" alt="Marvel">
+      <img *ngIf="heroe.casa == 'DC'" class="img-logo" src="../../../assets/img/dc.png" alt="DC">
+      <img *ngIf="heroe.casa == 'Marvel'" class="img-logo" src="../../../assets/img/marvel.png" alt="Marvel">
     </div>
   </div>
 
