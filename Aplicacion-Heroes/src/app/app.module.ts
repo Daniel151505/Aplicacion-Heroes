@@ -10,13 +10,15 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 
 // Servicios
 import { HeroesService } from './components/services/heroes.service';
+import { HeroeComponent } from './components/heroe/heroe.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroeComponent
   ],
   imports: [
     BrowserModule,
