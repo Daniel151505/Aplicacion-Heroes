@@ -7,12 +7,11 @@ import {HeroeComponent} from './components/heroe/heroe.component'
 import { BuscadorComponent } from './components/buscador/buscador.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent },
-  {path: 'about' , component: AboutComponent},
+
   {path: 'heroes' , component: HeroesComponent},
   {path: 'heroe/:id' , component: HeroeComponent},
   {path: 'buscar/:termino' , component: BuscadorComponent},
-  {path: '**', pathMatch: 'full' ,redirectTo: 'home' }
+  {path: '**', pathMatch: 'full' ,redirectTo: 'heroes' }
 ];
 
 @NgModule({
