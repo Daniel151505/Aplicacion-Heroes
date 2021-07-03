@@ -36,3 +36,15 @@ body {
 .img-logo {
   width: 120px;
 }
+
+.body {
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)),url(assets/img/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.white {
+  color: white;
+  text-align: center;
+}
